@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html Lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="icon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jocelyn Valencia</title>
+</head>
+<body>
+    <!---Header--->
+    <div classs="container">
+        <div class="top">
+            <div class="mobile" id="toggleButton"><i class="fa fa-bars" onclick="changeIcon(this)"></i></div>
+            <div class="logo">jovalenci<b>.</b></div>
+            <ul class="navItems" id="navItems">
+                <li class="abouts"><a href="#abouts">about</a></li>
+                <li class="works"><a href="#works">work</a></li>
+                <li class="educations"><a href="#educations">education</a></li>
+                <li class="leaderships"><a href="#leaderships">leadership</a></li>
+                <li class="projects"><a href="#projects">projects</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/jocelyn-valencia-yoswara-1910/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/jocelynvalen_/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Jovalenci"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <!---Landing Page--->
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>Penultimate Information Engineering and Media Student from Nanyang Technological University, Singapore</p>
+                <div class="btns">
+                    <a href="file/resume.pdf"><button>Download Resume</button></a>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="" id="splash">
+                    <img class="me" src="images/me.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["Jocelyn Valencia","a Product Manager", "a Leader", "a Technology Enthusiast","a UI/UX Designer"], 
+            loop: true, 
+            typeSpeed: 100, 
+            backSpeed: 80, 
+            backDelay: 1500
+        })
+    </script>
+
+    <!---About section--->
+    <section class="about" about id="abouts">
+        <div class="about-title">About Me</div>
+        <div class="about-container">
+            <div class="about-header">
+                <img class="profile" src="images/profile.jpg" alt="profile">
+                <h1>Jocelyn Valencia Yoswara <i>(she/her)</i></h1>
+            </div>
+            <div class="about-description">
+                <p>I'm a third-year Information Engineering and Media Student at Nanyang Technological University Singapore. I'm an open learner, organized, always trying to see new things from the perspective of others, and strongly motivated to do well in every task given. I always believe that one day I will become a person that brings benefits and positive influence to the community.
+                    
+                    <br><br>Currently, I'm interested in <span class="field">Product Management </span>and <span class="field">UI/UX Design</span> field.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---Work section--->
+    <section class="work" about id="works">
+        <div class="work-title">Work Experience</div>
+        <div class="work-container">
+            <div class="work-header">
+                <img class="work-logo" src="images/datgel.png" alt="work-logo">
+            </div>
+            <div class="work-description">
+                <h1>Software Engineer Intern, Datgel Asia</h1>
+                <p class="duration">May 2022 - Jul 2022</p><br>
+                <ul>
+                    <li>Implemented enhancements that increase user impression by 30% and improved user interface and experience, web functionality, and page responsiveness</li>
+                    <li>Optimized Datgel’s Website for search engine visibility and involved in the development of SEO strategies including link building, content editing, page speed research, and so on</li>
+                    <li>Proposed and designed a UI/UX and visual design prototype for Datgel’s Website Support and Help Center Page</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!---Education section--->
+    <section class="education" about id="educations">
+        <div class="education-title">Education</div>
+        <div class="education-container">
+            <div class="education-header">
+                <img class="education-logo" src="images/ntu.png" alt="education-logo">
+            </div>
+            <div class="education-description">
+                <h1>Nanyang Technological University, Singapore</h1><br>
+                <p>Bachelor of Information Engineering and Media (2020 - 2024)</p><br>
+                <p>Expected Honors(Distinction)</p><br>
+                <p>Relevant Modules</p>
+                <p> Object-Oriented Programming, Data Structures and Algorithms, Introduction to Design and Project, From Computational Thinking to Programming, Software Engineering, Information Security, Cyber Security, Design & Innovation Project</p><br>
+            </div>
+        </div>
+        <div class="education-container-2">
+            <div class="education-header">
+                <img class="education-logo-2" src="images/aloy.png" alt="education-logo">
+            </div>
+            <div class="education-description">
+                <h1>SMA Santo Aloysius 1, Bandung, Indonesia</h1><br>
+                <p>Engineering Science (2017 - 2020)</p><br>
+                <p>Achievements:</p>
+                <ul>
+                    <li>Gold Medalist (1st Winner) in The National Young Scientists Competition and The Young Scientists Competition September 2019 category Mathematics, Indonesia</li>
+                    <li>Gold Medalist as Top Team in CTMC 2019, University of Waterloo Canada</li>
+                    <li>Silver Medalist of SEAMO and SASMO 2019</li>
+                    <li>Based on the outstanding achievement in 2014 - 2020 received Fully Funded Scholarship of Santo Aloysius from Mardiwidjana Foundation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!---Leadership section--->
+    <section class="leadership" about id="leaderships">
+        <div class="leadership-title">Leadership Experience</div>
+        <div class="leadership-pintu-container">
+            <div class="leadership-header">
+                <img class="leadership-pintu-logo" src="images/pintu.png" alt="pintu-logo">
+            </div>
+            <div class="leadership-pintu-description">
+                <h1>PINTU (Pelajar Indonesia NTU)</h1><br>
+                <div class="timeline">
+                    <div class="leadership-pintu-desc">
+                        <h3 class="title">President</h3>
+                        <p class="duration">Sep 2022 - present</p>
+                        <p class="desc">Lead and oversee Indonesian students studying in NTU (400+ students) with a vision to make PINTU community a second home and aspire its members to increase their potential continuously and comprehensively</p><br>
+                    </div>
+                    <div class="leadership-pintu-desc">
+                        <h3 class="title">Secretary</h3>
+                        <p class="duration">Sep 2021 - Sep 2022</p>
+                        <p class="desc">Mobilized PINTU social media to outreach all levels of Indonesian students in NTU and maintained system administration and PDPA related issues in PINTU community</p><br>
+                    </div>
+                    <div class="leadership-pintu-desc">
+                        <h3 class="title">Events Director</h3>
+                        <p class="duration">Sep 2020 - Sep 2021</p>
+                        <p class="desc">Initiated and managed recreational gathering events and activities for Indonesian students in NTU</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="leadership-eee-container">
+            <div class="leadership-header">
+                <img class="leadership-eee-logo" src="images/eee.png" alt="eee-logo">
+            </div>
+            <div class="leadership-eee-description">
+                <h1>NTU EEE Club</h1><br>
+                <div class="timeline">
+                    <div class="leadership-eee-desc">
+                        <h3 class="title">Student Life Director</h3>
+                        <p class="duration">Sep 2021 - Sep 2022</p>
+                        <p class="desc"> Led, planned, organized, executed, and implemented 6 major events in EEE Club: EEE Week, Inter-School Games, EEE Valentine’s Day, EEE Halloween, Examination Welfare Initiative, and EEE-IEM Committee Bonding Day</p><br>
+                    </div>
+                    <div class="leadership-eee-desc">
+                        <h3 class="title">Student Life Comms</h3>
+                        <p class="duration">Sep 2020 - Sep 2021 & Oct 2022 - present</p>
+                        <p class="desc">Prepared and planned EEE Club major events to promote student for excellent campus life</p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Project section--->
+    <section class="project" about id="projects">
+        <div class="project-title">Recent Projects</div>
+        <div class="project-container">
+            <div class="project-pic">
+                <img src="images/soma.jpg" alt="soma">
+                <div class="overlay">
+                    <div class="overlay-title">
+                        <h1>SOMA App</h1>
+                        <h3>Role: Product Manager, Front-End Developer</h3>
+                        <h5>Android Studio, MySQL, Spring Boot, Figma</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="project-pic">
+                <img src="images/superguess.jpg">
+                <div class="overlay-2">
+                    <div class="overlay-title">
+                        <h1>SuperGuess</h1>
+                        <h5>Android Studio, React, MySQL, Java Servlet</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="project-pic">
+                <img src="images/abandoned.jpg" alt="abandoned">
+                <div class="overlay-3">
+                    <div class="overlay-title">
+                        <h1>The Abandoned</h1>
+                        <h5>Unity3D, C#</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="project-pic">
+                <img src="images/sudoku.jpg" alt="sudoku">
+                <div class="overlay-4">
+                    <div class="overlay-title">
+                        <h1>Sudoku Game</h1>
+                        <h5>Java Programming (Java Swing, GUI)</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!---Footer--->
+    <div class="footer">
+        <p class="copyright">©2022 <span><a href="https://www.linkedin.com/in/jocelyn-valencia-yoswara-1910">Jocelyn Valencia™</a></span>. All Rights Reserved</p>
+      </div>
+    
+    <script src="./index.js"></script>
+
+</body>
+</html>
