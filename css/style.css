@@ -1051,3 +1051,122 @@ h3{
         font-size: 0.7rem; 
     }
   }
+
+ @media(max-width: 350px){
+    .wrapper::after{
+        width: 50px; 
+        height: 50px; 
+    }
+    .imgbox .me{
+        height: 170%; 
+        width: 170%; 
+    }
+    .wrapper::before{
+        width: 150px; 
+        height: 150px; 
+        margin-top: 30px; 
+    }
+    .about-header h1{
+        width: 80%; 
+        font-size: 15px; 
+    }
+    .about-header .profile{
+        margin-right: -19vw; 
+    }
+    .work-description h1, .leadership-pintu-description h1, .leadership-eee-description h1{
+        font-size: 14px; 
+        margin-left: -40px; 
+    }
+    .work-header .work-logo{
+        margin-top: 200px; 
+        margin-left: -85px; 
+    }
+    .work-description li, .education-description li, .desc{
+        font-size: 0.62rem; 
+    }
+    .education-description h1{
+        width: 100%; 
+    }
+    .education-header .education-logo{
+        margin-left: -17px; 
+        margin-top: 250px; 
+    }
+    .education-description p{
+        font-size: 0.65rem; 
+        margin-left: -79px; 
+        width: 120%; 
+    }
+    .education-container-2 .education-description h1{
+        margin-left: -40px; 
+        width: 80%; 
+    }
+    .education-logo-2{
+        margin-top: 240px; 
+    }
+    .education-description{
+        margin-bottom: 345px; 
+    }
+    .duration{
+        font-size: 11px; 
+    }
+    .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo{
+        margin-left: -15px; 
+    }
+    .title::before{
+        margin-left: -30px; 
+    }
+    .timeline .leadership-pintu-desc h3, .timeline .leadership-eee-desc h3{
+        font-size: 11px; 
+        margin-left: -100px; 
+    }
+    .desc{
+        font-size: 0.5rem; 
+        margin-left: -100px; 
+        width: 200%; 
+    }
+    .timeline{
+        padding-left: 120px; 
+        margin-left: -20px; 
+    }
+    .leadership-pintu-description, .leadership-eee-description{
+        margin-left: 130px; 
+    }
+    .leadership-pintu-description h1, .leadership-eee-description h1{
+        margin-left: -60px; 
+        margin-top: 35px; 
+    }
+    .leadership-pintu-description .duration{
+        margin-left: -195px; 
+        font-size: 9px; 
+    }
+    .leadership-eee-description .duration{
+        font-size: 9px; 
+        width: 200%; 
+        margin-left: -100px; 
+    }
+    .timeline .leadership-eee-desc h3{
+        width: 200%; 
+    }
+    .leadership-eee-description h1{
+        margin-top: 65px; 
+    }
+    .leadership-header .leadership-eee-logo{
+        margin-top: 320px;
+    }
+    .project{
+        height: 105vh; 
+    }
+    .education{
+        height: 140vh; 
+    }
+    .about{
+        height: 90vh;
+    }
+    .leadership{
+        height: 165vh; 
+    }
+    .work{
+        height: 85vh; 
+    }
+  }
+
