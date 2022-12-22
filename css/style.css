@@ -1052,7 +1052,7 @@ h3{
     }
   }
 
-  @media(max-width: 350px){
+  @media(max-width: 380px){
     .wrapper::after{
         width: 50px; 
         height: 50px; 
@@ -1067,7 +1067,7 @@ h3{
         margin-top: 30px; 
     }
     .about-header h1{
-        width: 80%; 
+        width: 78%; 
         font-size: 15px; 
     }
     .about-header .profile{
@@ -1079,17 +1079,19 @@ h3{
     }
     .work-header .work-logo{
         margin-top: 200px; 
-        margin-left: -85px; 
+        margin-left: -75px; 
     }
     .work-description li, .education-description li, .desc{
         font-size: 0.62rem; 
     }
     .education-description h1{
         width: 100%; 
+        font-size: 13px; 
+        margin-left: -50px; 
     }
     .education-header .education-logo{
         margin-left: -17px; 
-        margin-top: 250px; 
+        margin-top: 230px; 
     }
     .education-description p{
         font-size: 0.65rem; 
@@ -1098,10 +1100,11 @@ h3{
     }
     .education-container-2 .education-description h1{
         margin-left: -40px; 
-        width: 80%; 
+        width: 95%; 
     }
     .education-logo-2{
-        margin-top: 240px; 
+        margin-top: 220px; 
+        margin-left: -10px; 
     }
     .education-description{
         margin-bottom: 345px; 
@@ -1122,7 +1125,7 @@ h3{
     .desc{
         font-size: 0.5rem; 
         margin-left: -100px; 
-        width: 200%; 
+        width: 150%; 
     }
     .timeline{
         padding-left: 120px; 
@@ -1136,12 +1139,12 @@ h3{
         margin-top: 35px; 
     }
     .leadership-pintu-description .duration{
-        margin-left: -195px; 
+        margin-left: -252px; 
         font-size: 9px; 
     }
     .leadership-eee-description .duration{
         font-size: 9px; 
-        width: 200%; 
+        width: 150%; 
         margin-left: -100px; 
     }
     .timeline .leadership-eee-desc h3{
@@ -1154,7 +1157,7 @@ h3{
         margin-top: 320px;
     }
     .project{
-        height: 105vh; 
+        height: 115vh; 
     }
     .education{
         height: 140vh; 
@@ -1169,5 +1172,6 @@ h3{
         height: 85vh; 
     }
   }
+
 
 
