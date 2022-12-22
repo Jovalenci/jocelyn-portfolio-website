@@ -255,6 +255,7 @@ button:hover{
     flex-direction: column; 
     height: 100vh; 
     justify-content: center; 
+    width: 100%;
 }
 
 .about-title, .work-title, .education-title, .leadership-title,.project-title{
@@ -333,6 +334,7 @@ button:hover{
     flex-direction: column; 
     height: 90vh; 
     justify-content: flex-start; 
+    width: 100%;
 }
 
 .education, .leadership{
@@ -341,6 +343,7 @@ button:hover{
     flex-direction: column; 
     height: 155vh; 
     justify-content: flex-start;
+    width: 100%;
 }
 
 .leadership{
