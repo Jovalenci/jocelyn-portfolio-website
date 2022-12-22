@@ -1,0 +1,1038 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif; 
+    
+}
+
+body{
+    -webkit-text-size-adjust: 100%; 
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smooting: antialiased; 
+}
+
+.container{
+    width:100%;
+    min-height: 100vh; 
+    overflow-x: hidden; 
+    background-color: #f3f5f8; 
+}
+
+.top{
+    display: flex; 
+    width: 100%; 
+    justify-content: space-around; 
+    height: 80px; 
+    line-height: 80px; 
+    z-index: 111; 
+    position: fixed; 
+    background-color: #fff; 
+}
+
+.logo{
+    display: flex; 
+    font-size: 30px; 
+    font-weight: 800; 
+    color: #3d535f; 
+    letter-spacing: 3px; 
+    cursor: pointer; 
+    text-transform: uppercase; 
+}
+
+b{
+    font-size: 60px; 
+    color: #74a2cc; 
+}
+
+.navItems{
+    display: flex; 
+}
+
+.navItems li{
+    list-style: none; 
+    margin: 0 15px;  
+}
+
+.navItems li a{
+    font-size: 25px; 
+    color: #3d535f; 
+    letter-spacing: 3px; 
+    text-decoration: none; 
+    text-transform: capitalize; 
+}
+
+.navItems li:hover a, 
+.links a:hover{
+    color: #74a2cc;
+}
+
+.navItems li:active{
+    text-decoration: underline; 
+    color: #74a2cc; 
+}
+
+.mobile{
+    visibility:hidden; 
+}
+
+.links a{
+    font-size: 45px; 
+    color: #3d535f; 
+    margin: 25px 10px; 
+}
+
+.wrapper{
+    display: flex; 
+    width: 100%; 
+    height: calc(100vh - 80px);
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 7%; 
+}
+
+.wrapper::before{
+    position: absolute; 
+    content: '';
+    height: 420px; 
+    width: 420px; 
+    border-radius: 50%; 
+    left: -12%; 
+    top: 40%;
+    background: linear-gradient(45deg, #929daf, #74a2cc);
+    animation: object1 6s linear infinite; 
+}
+
+.wrapper::after{
+    position: absolute; 
+    content: '';
+    height: 120px; 
+    width: 120px; 
+    border-radius: 50%; 
+    left: 35%; 
+    top: 16%;
+    background: linear-gradient(45deg, #929daf, #74a2cc);
+    animation: object2 6s linear infinite; 
+}
+
+@keyframes object1{
+    50%{
+        left: -13%; 
+        top: 38%; 
+    }
+}
+
+@keyframes object2{
+    50%{
+        left: 35%; 
+        top: 14%; 
+    }
+}
+
+.cols{
+    width: 50%; 
+}
+
+.cols0{
+    width: 80%;
+    z-index: 5; 
+    margin-top: 130px;
+}
+
+.topline{
+    display:block; 
+    position: relative; 
+    font-size: 35px; 
+    letter-spacing: 5px; 
+    color: #3d535f; 
+}
+
+.topline::after{
+    position: absolute; 
+    content: ''; 
+    height: 4px; 
+    width: 45px; 
+    bottom: 10px; 
+    background-color: #74a2cc;  
+}
+
+h1{
+    display:block; 
+    font-size: 50px; 
+    font-weight: 900; 
+    color: #3d535f; 
+}
+
+.multiText{
+    color: #74a2cc; 
+}
+
+p{
+    display:block; 
+    width: 90%; 
+    font-size: 1.2em;
+    color: #3d535f; 
+    font-weight: 600;
+}
+
+.btns{
+    width: 100%; 
+    position: relative; 
+    left: 200px; 
+}
+
+button{
+    outline: none; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 25px; 
+    font-weight: 400; 
+    color: #fff; 
+    background-color: #3d535f; 
+    padding: 8px 14px; 
+    margin: 40px 5px; 
+    text-transform: capitalize; 
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+}
+
+button:hover{
+    background-color:#74a2cc;
+}
+
+.imgbox{
+    position: relative; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.imgbox .me{
+    position: relative; 
+    height: 120%; 
+    width: 120%;
+    top: 80px; 
+    right: 40px;
+    animation: animateUser 4s linear infinite; 
+}
+
+@keyframes animateUser{
+    50%{
+        right: 50px; 
+        top: 70px; 
+    }
+}
+
+.imgbox #splash{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) rotate(-20deg); 
+    width: 100%; 
+    filter: saturate(200%); 
+    animation: animate 4s linear infinite; 
+}
+
+@keyframes animate{
+    50%{
+        top: 49%; 
+        left: 51%; 
+        width: 95%; 
+    }
+}
+
+.about{
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    height: 100vh; 
+    justify-content: center; 
+}
+
+.about-title, .work-title, .education-title, .leadership-title,.project-title{
+    font-size: 30px; 
+    padding: 20px 0; 
+    width: 60%; 
+    color: #3d535f; 
+    letter-spacing: 2px;
+    font-weight: bold; 
+}
+
+.about-container,.work-container, .education-container, .leadership-pintu-container, .leadership-eee-container{
+    align-items: center; 
+    border: 2px solid#74a2cc;
+    border-radius: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    height: 60vh; 
+    justify-content: space-evenly; 
+    padding: 2vw; 
+    width: 60vw; 
+    z-index: 20; 
+    transition: all .3s ease-in;
+}
+
+.about-container:hover, .work-container:hover, .education-container:hover, .education-container-2:hover, .leadership-pintu-container:hover, .leadership-eee-container:hover{
+    -ms-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+}
+
+.about-header{
+    align-items: center; 
+    display: flex; 
+    font-size: 0.8rem; 
+    height: 40%; 
+    width: 70vw; 
+    margin-left: 220px; 
+}
+
+.about-header h1{
+    font-size: 35px; 
+}
+
+.about-header i{
+    font-size: 20px; 
+    font-style: italic; 
+}
+
+.about-header .profile{
+    border-radius: 50%; 
+    height: 9vw; 
+    margin-right: 1.5vw; 
+    width: 9vw; 
+    display: inline-block; 
+    box-sizing: border-box; 
+    overflow-clip-margin: content-box; 
+    overflow: clip; 
+}
+
+.about-description p{
+    text-align: justify; 
+    line-height: 1.2; 
+    margin-bottom: 1.5rem; 
+    margin-top: 30px; 
+    font-size: 20px; 
+}
+
+.about-description p .field{
+    color: #74a2cc;
+}
+
+.work, .project{
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    height: 90vh; 
+    justify-content: flex-start; 
+}
+
+.education, .leadership{
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    height: 155vh; 
+    justify-content: flex-start;
+}
+
+.leadership{
+    height:175vh; 
+}
+
+.work-header, .education-header{
+    align-items: center; 
+    display: flex; 
+    font-size: 0.8rem; 
+    height: 40%; 
+    width: 70vw; 
+    margin-left: 220px; 
+}
+
+.work-header .work-logo{
+    border-radius: 15px; 
+    margin-top: 250px; 
+    width: 7vw; 
+    height: 7vw; 
+    max-width: 100%; 
+}
+
+.work-description, .education-description, .leadership-pintu-description, .leadership-eee-description{
+    width: 85%; 
+    margin-left: 130px; 
+    margin-bottom: 130px; 
+}
+
+.leadership-pintu-description{
+    margin-bottom: 220px; 
+    margin-left: 200px; 
+}
+
+.leadership-eee-description{
+    margin-bottom: 180px; 
+    margin-left: 200px; 
+}
+
+.timeline{
+    padding-left: 30px; 
+    border-left: 2px solid #3d535f;
+}
+
+
+ .work-description h1, .education-description h1, .leadership-pintu-description h1, .leadership-eee-description h1{
+    font-size: 25px;  
+ }
+
+ .work-description li, .education-description li, .desc{
+    text-align: justify;
+    line-height: 1.5;  
+    font-size: 1rem; 
+    color: #3d535f; 
+    font-weight: 600;
+    margin-left: 15px; 
+}
+
+.desc{
+    margin-left: 0;
+}
+
+.duration{
+    color:#929daf;
+    font-size: 18px; 
+}
+
+.leadership-pintu-description .duration, .leadership-eee-description .duration{
+    font-size: 15px; 
+}
+
+h3{
+    color: #74a2cc;
+}
+
+.education-header, .leadership-header{
+        align-items: center; 
+        display: flex; 
+        font-size: 0.8rem; 
+        height: 40%; 
+        width: 70vw; 
+        margin-left: 180px; 
+}
+
+.leadership-header{
+    margin-bottom: 35px; 
+    display:block; 
+}
+
+
+.education-header .education-logo{
+    border-radius: 15px; 
+    margin-top: 250px; 
+    width: 9vw; 
+    height: 9vw; 
+    max-width: 100%; 
+}
+
+.leadership-header .leadership-pintu-logo,.leadership-header .leadership-eee-logo{
+    border-radius: 15px; 
+    margin-top: 350px; 
+    width:9vw;
+    height: 9vw;  
+    max-width: 100%;  
+}
+
+.leadership-header .leadership-eee-logo{
+    margin-top: 270px; 
+    margin-left: 17px; 
+}
+
+.education-logo-2{
+    border-radius: 15px; 
+    margin-top: 250px; 
+    width: 8vw; 
+    height: 8vw; 
+    max-width: 100%;
+}
+
+.education-container-2{
+    margin: 3.5vw; 
+    align-items: center; 
+    border: 2px solid#74a2cc;
+    border-radius: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    height: 60vh; 
+    justify-content: space-evenly; 
+    padding: 2vw; 
+    width: 60vw; 
+    z-index: 20; 
+    transition: all .3s ease-in;
+}
+
+.leadership-pintu-container{
+    height: 80vh; 
+    width: 60vw; 
+}
+
+.leadership-eee-container{
+    margin: 3.5vw; 
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 999px;
+    border: 3px solid #74a2cc;
+    margin-left: -40px; 
+    margin-top: 7px; 
+  }
+  
+  .project-container{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    width: 60vw; 
+    margin-left: -80px; 
+    position: relative;
+  }
+
+  .project-pic{
+    align-items: center; 
+    border-radius: 15px; 
+    color: #fff; 
+    display: flex; 
+    flex-direction: column; 
+    margin: 1vw;
+    width: 25vw; 
+
+  }
+
+  .project-pic img{
+    border-radius: 1vw; 
+    object-fit: contain; 
+    width: 100%; 
+    vertical-align: middle; 
+    position: relative; 
+  }
+
+  .project-container .project-pic .overlay, .project-container .project-pic .overlay-2, .project-container .project-pic .overlay-3, .project-container .project-pic .overlay-4{
+    align-items: center; 
+    background-color: #000; 
+    border-radius: 1vw; 
+    display: flex; 
+    flex-direction: column; 
+    font-size: .8rem; 
+    height: 100%; 
+    justify-content: center; 
+    left: 25%; 
+    opacity: 0; 
+    right: 0; 
+    top: 25%;
+    transition: .15s ease-in-out; 
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; 
+    width: 25vw;
+    height: 14vw; 
+  }
+
+  .project-container .project-pic .overlay-2{
+    left: 75%; 
+  }
+
+  .project-container .project-pic .overlay-3{
+    top: 75%; 
+  }
+
+  .project-container .project-pic .overlay-4{
+    left: 75%; 
+    top: 75%; 
+  }
+
+
+
+  .project-pic:hover .overlay, .project-container .project-pic:hover .overlay-2, .project-container .project-pic:hover .overlay-3, .project-container .project-pic:hover .overlay-4{
+    opacity: .8; 
+    transition: .2s ease-in-out; 
+  }
+
+  .project-pic .overlay .overlay-title{
+    height: 50%; 
+    margin-bottom: 2vw; 
+    padding: 1vw; 
+    text-align: center; 
+  }
+
+  .project-pic .overlay-title h1{
+    font-size: 1.5vw; 
+    color: #fff; 
+  }
+
+  .project-pic .overlay-title h3{
+    font-size: 0.9vw; 
+    color: #fff; 
+  }
+
+  .project-pic .overlay-title h5{
+    font-size: 0.8vw; 
+  }
+
+  .footer{
+    background-color: #74a2cc;
+    padding: 5px 0 10px;
+  }
+
+  .copyright{
+    color: #EAF6F6;
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+  .copyright span a{
+    color: #EAF6F6; 
+    text-decoration: none; 
+  }
+
+  .copyright span a:hover{
+    text-decoration: underline; 
+  }
+
+
+
+  @media(max-width: 1028px){
+    .logo{
+        visibility:hidden;
+    }
+
+    #navItems{
+        display: flex;
+        position: fixed;
+        align-items: start; 
+        border: 2px solid #3d535f;
+        border-radius: 5px; 
+        flex-direction: column; 
+        height: 30vh; 
+        justify-content: start; 
+        padding: 5vh 0 0 2vw; 
+        right: -500px;
+        top: 15vw; 
+        transition: .3s ease-in-out; 
+        width: 300px; 
+        background-color: #fff; 
+    }
+
+    #navItems.active{
+        right: 0; 
+    }
+
+    .navItems li a{
+        font-size: 20px; 
+    }
+
+    .container{
+        margin-top:10px;
+        position: relative; 
+    }
+    .top{
+        line-height:30px;
+    }
+    .mobile{
+        display: block; 
+        visibility: visible; 
+        font-size: 30px; 
+        color: #3d535f; 
+        margin-top:25px;  
+        position: absolute;
+        left: 15px; 
+    }
+
+    .mobile i{
+        cursor: pointer; 
+    }
+
+    .mobile i:hover{
+        color: #74a2cc;
+    }
+
+    .links{
+        display: flex; 
+        right: 15px;
+        position: absolute; 
+    }
+    .links a{
+        font-size: 30px; 
+        color: #3d535f; 
+       
+    }
+    .imgbox .me{
+      position: relative;
+      right: -80px;
+      top:20px;
+    }
+    h1{
+        font-size: 25px; 
+        text-align: center;
+        margin-left: 40px; 
+    }
+    .topline{
+        font-size: 25px; 
+        text-align: center; 
+    }
+    .wrapper{
+        display:inline-block;
+    }
+    .wrapper::before{
+        height: 200px; 
+        width: 200px; 
+        top:30%;
+    }
+    .wrapper::after{
+        height: 70px; 
+        width: 70px; 
+        top: 12%; 
+        left: 15%; 
+    }
+    p{
+        margin-left: auto; 
+        font-size: 1em; 
+        text-align: center; 
+        margin-top: 10px; 
+        position: relative; 
+    }
+    button{
+        font-size: 15px; 
+        margin: 25px;
+        margin-left: -100px;  
+    }
+    @keyframes object2{
+        50%{
+            left: 15%; 
+            top: 14%;
+        }
+    }
+    @keyframes object1{
+        50%{
+            left: -13%; 
+            top: 28%; 
+        }
+    }
+    @keyframes animateUser{
+        50%{
+            right: -70px; 
+            top: 30px; 
+        }
+    }
+    .about-title, .work-title, .education-title, .leadership-title, .project-title{
+        font-size: 20px; 
+    }
+    .about-description p{
+        font-size: 15px; 
+        margin-top:15px; 
+        margin-left: 17px; 
+    }
+    .about-header{
+        margin-left:100px; 
+        margin-top: 40px; 
+    }
+    .about-header h1{
+        font-size: 20px;
+        width: 60%; 
+    }
+    .about-header i{
+        font-size: 10px; 
+    }
+    .about-header .profile{
+        height:12vw; 
+        width: 12vw; 
+        margin-right: -9vw; 
+    }
+    .work-description, .education-description{
+        margin-bottom: 150px; 
+    }
+
+    .leadership-pintu-description, .leadership-eee-description{
+        margin-bottom: 440px; 
+        margin-left: 150px; 
+    }
+
+    .leadership-eee-description{
+        margin-bottom: 400px; 
+    }
+
+    .education-description{
+        margin-bottom: 320px; 
+    }
+    .work-description h1, .education-description h1, .leadership-pintu-description h1, .leadership-eee-description h1{
+        font-size: 20px; 
+        width: 90%; 
+        margin-left: -35px; 
+    }
+
+    .leadership-pintu-description h1, .leadership-eee-description h1{
+        font-size: 17px; 
+        width: 150%; 
+        margin-left: -130px; 
+        margin-top: 30px; 
+    }
+
+    .education-description h1{
+        font-size: 17px; 
+        margin-left: -25px; 
+    }
+
+    .work-header .work-logo{
+        width: 10vw; 
+        height: 10vw; 
+        margin-left: -70px; 
+        margin-top: 220px; 
+    }
+    .duration{
+        font-size: 13px; 
+        margin-left: -50px; 
+    }
+    .work-description li, .education-description li, .desc{
+        width: 98%; 
+        font-size:0.75rem; 
+        margin-left: -60px; 
+    }
+
+    .desc{
+        margin-left:-120px;
+        font-size:0.6rem; 
+        width: 160%; 
+        text-align: left;
+    }
+
+    .education-header .education-logo{
+        width: 12vw; 
+        height: 12vw;
+        margin-top: 220px;  
+    }
+
+    .education-header, .leadership-header{
+        margin-left: 80px; 
+        margin-top: 170px; 
+    }
+
+    .education-description p{
+        font-size: 0.9rem; 
+        margin-top: -7px; 
+        margin-left: -85px; 
+        width: 120%; 
+    }
+    .education-logo-2{
+        width: 12vw; 
+        height: 12vw; 
+        margin-top: 220px; 
+    }
+    .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo{
+        width: 12vw; 
+        height: 12vw; 
+    }
+
+    .leadership-header .leadership-eee-logo{
+        margin-left: 5px; 
+    }
+
+    .timeline{
+        padding-left: 140px;
+    }
+
+    .timeline .leadership-pintu-desc h3, .timeline .leadership-eee-desc h3{
+        font-size: 15px; 
+        margin-left: -120px; 
+    }
+    .leadership-pintu-description .duration, .leadership-eee-description .duration{
+        font-size:10px; 
+        margin-left: -130px;
+        width: 120%;  
+    }
+
+    .leadership-eee-description .duration{
+        text-align: left; 
+        margin-left: -120px; 
+    }
+
+
+    .title::before{
+        margin-left:-30px; 
+    }
+
+    .project{
+        height: 155vh; 
+    }
+
+    .project-container{
+        align-items: center; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        width: 90vw; 
+    }
+
+    .project-pic{
+        width: 70vw;
+        margin: 2vw; 
+        margin-left: auto; 
+    }
+
+    .project-container .project-pic .overlay, .project-container .project-pic .overlay-2, .project-container .project-pic .overlay-3, .project-container .project-pic .overlay-4{
+        top:12.5%; 
+        left:59%;
+        width:70vw;
+        height: 40vw; 
+    }
+
+    .project-container .project-pic .overlay-2{
+        top: 37.5%;
+    }
+
+    .project-container .project-pic .overlay-3{
+        top: 62.5%
+    }
+
+    .project-container .project-pic .overlay-4{
+        top: 87.5%;
+    }
+
+    .project-pic .overlay-title h1{
+        font-size: 5vw; 
+        margin: auto; 
+    }
+
+    .project-pic .overlay-title h3{
+        font-size: 2.5vw; 
+        margin: auto; 
+    }
+
+    .project-pic .overlay-title h5{
+        font-size: 2.5vw; 
+        margin: auto; 
+    }
+
+  }
+
+  @media(max-width: 480px){
+    .wrapper::after{
+        height: 60px; 
+        width: 60px; 
+    }
+    .wrapper::before{
+        height: 180px; 
+        width: 180px; 
+    }
+    button{
+        margin-left: -140px; 
+    }
+    .about-header{
+        margin-left: 70px; 
+        margin-top:-40px; 
+    }
+    .about-description p{
+        font-size: 12px; 
+        margin-left: 12px; 
+        margin-top: -55px; 
+    }
+
+    .about-header h1{
+        font-size: 18px; 
+    }
+    .work-description h1, .leadership-pintu-description h1, .leadership-eee-description h1{
+        font-size: 17px; 
+        width: 95%; 
+    }
+    .work-description li, .education-description li, .desc{
+        font-size: 0.65rem; 
+    }
+
+    .education-description li{
+        width: 110%; 
+        margin-left: -70px; 
+    }
+
+    .education-description h1{
+        font-size: 14px; 
+        width: 120%; 
+        margin-left: -60px; 
+        margin-top: 10px; 
+    }
+    .education-header .education-logo{
+        margin-left: -10px; 
+    }
+    .education-description p{
+        font-size: 0.8rem; 
+    }
+    .imgbox .me{
+       right: -30px;
+       height: 150%; 
+       width: 150%; 
+    }
+    @keyframes animateUser{
+        50%{
+        right: -40px; 
+        top: 30px; 
+        }
+    }
+
+    .education-container-2{
+        margin: 4.5vw; 
+    }
+    .leadership-header{
+        margin-top: 140px;
+    }
+    .leadership-pintu-description h1, .leadership-eee-description h1{
+        margin-left: -60px; 
+    }
+    .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo{
+        margin-left: -5px; 
+    }
+    .leadership-pintu-description .duration{
+        width: 520%; 
+        margin-left: -160px; 
+    }
+    .leadership-eee-description .duration{
+        width: 520%; 
+        margin-left: -150px;
+    }
+    .desc{
+        font-size: 0.52rem; 
+        width: 600%; 
+        margin-left: -155px; 
+    }
+    .timeline{
+        padding-left: 170px; 
+    }
+    .timeline .leadership-pintu-desc h3, .timeline .leadership-eee-desc h3{
+        font-size: 12px; 
+        margin-left: -155px; 
+    }
+    .title::before{
+        margin-left: -25px;
+    }
+    .leadership-pintu-description, .leadership-eee-description{
+        margin-left: 120px; 
+    }
+    .leadership-eee-container{
+        margin: 4.5vw; 
+    }
+    .education{
+        height: 145vh; 
+    }
+    .work{
+        height: 80vh; 
+    }
+    .project{
+        height: 130vh; 
+    }
+    .education{
+        height: 145vh;
+    }
+    .copyright{
+        font-size: 0.7rem; 
+    }
+  }
