@@ -1095,6 +1095,10 @@ h3{
         margin-top: 200px; 
         margin-left: -75px; 
     }
+    .work-description .mercedes-header{
+        font-size:13px; 
+        margin-left: -35px; 
+    }
     .work-description li, .education-description li, .desc{
         font-size: 0.62rem; 
     }
