@@ -1129,6 +1129,9 @@ h3{
     .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo{
         margin-left: -15px; 
     }
+    .leadership-header .leadership-pintu-logo{
+        margin-top: 380px; 
+    }
     .title::before{
         margin-left: -30px; 
     }
