@@ -341,7 +341,7 @@ button:hover{
     align-items: center; 
     display: flex; 
     flex-direction: column; 
-    height: 150vh; 
+    height: 220vh; 
     justify-content: flex-start; 
     width: 100%;
 }
@@ -1048,7 +1048,7 @@ h3{
         height: 145vh; 
     }
     .work{
-        height: 140vh; 
+        height: 220vh; 
     }
     .project{
         height: 130vh; 
@@ -1185,7 +1185,7 @@ h3{
         height: 165vh; 
     }
     .work{
-        height: 145vh; 
+        height: 225vh; 
     }
   }
 
