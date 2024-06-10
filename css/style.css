@@ -74,7 +74,7 @@ b{
     color: #3d535f; 
     letter-spacing: 3px; 
     text-decoration: none; 
-    text-transform: capitalize; 
+    text-transform: capitalize;
 }
 
 .navItems li:hover a, 
@@ -370,6 +370,7 @@ button:hover{
     height: 40%; 
     width: 70vw; 
     margin-left: 220px; 
+    margin-top: -130px; 
 }
 
 .work-header .work-logo{
@@ -404,6 +405,10 @@ button:hover{
 
  .work-description h1, .education-description h1, .leadership-pintu-description h1, .leadership-eee-description h1{
     font-size: 25px;  
+ }
+
+ .leadership-pintu-description h1, .leadership-eee-description h1{
+    margin-top: -160px;
  }
 
  .work-description li, .education-description li, .desc{
@@ -457,14 +462,12 @@ h3{
 
 .leadership-header .leadership-pintu-logo,.leadership-header .leadership-eee-logo{
     border-radius: 15px; 
-    margin-top: 350px; 
     width:9vw;
     height: 9vw;  
     max-width: 100%;  
 }
 
-.leadership-header .leadership-eee-logo{
-    margin-top: 270px; 
+.leadership-header .leadership-eee-logo{ 
     margin-left: 17px; 
 }
 
@@ -701,7 +704,7 @@ h3{
     h1{
         font-size: 25px; 
         text-align: center;
-        margin-left: 40px; 
+        margin-left: 50px; 
     }
     .topline{
         font-size: 25px; 
@@ -731,7 +734,7 @@ h3{
     button{
         font-size: 15px; 
         margin: 25px;
-        margin-left: -100px;  
+        margin-left: -50px;  
     }
     @keyframes object2{
         50%{
@@ -765,7 +768,7 @@ h3{
     }
     .about-header h1{
         font-size: 20px;
-        width: 60%; 
+        width: 45%; 
     }
     .about-header i{
         font-size: 10px; 
@@ -800,13 +803,18 @@ h3{
     .leadership-pintu-description h1, .leadership-eee-description h1{
         font-size: 17px; 
         width: 150%; 
-        margin-left: -130px; 
-        margin-top: 30px; 
+        margin-left: -190px; 
+        margin-top: -250px; 
+    }
+
+    .leadership-pintu-description h1{
+        margin-left: -110px; 
     }
 
     .education-description h1{
         font-size: 17px; 
         margin-left: -25px; 
+        margin-top: -130px;
     }
 
     .work-header .work-logo{
@@ -817,7 +825,7 @@ h3{
     }
     .duration{
         font-size: 13px; 
-        margin-left: -50px; 
+        margin-left: -90px; 
     }
     .work-description li, .education-description li, .desc{
         width: 98%; 
@@ -828,14 +836,15 @@ h3{
     .desc{
         margin-left:-120px;
         font-size:0.6rem; 
-        width: 160%; 
+        width: 140%; 
         text-align: left;
     }
 
     .education-header .education-logo{
         width: 12vw; 
         height: 12vw;
-        margin-top: 220px;  
+        margin-top: -200px;  
+        margin-left: 25px; 
     }
 
     .education-header, .leadership-header{
@@ -845,14 +854,14 @@ h3{
 
     .education-description p{
         font-size: 0.9rem; 
-        margin-top: -7px; 
-        margin-left: -85px; 
+        margin-top: -4px; 
+        margin-left: -95px; 
         width: 120%; 
     }
     .education-logo-2{
         width: 12vw; 
         height: 12vw; 
-        margin-top: 220px; 
+        margin-top: -200px; 
     }
     .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo{
         width: 12vw; 
@@ -873,7 +882,7 @@ h3{
     }
     .leadership-pintu-description .duration, .leadership-eee-description .duration{
         font-size:10px; 
-        margin-left: -130px;
+        margin-left: -178px;
         width: 120%;  
     }
 
@@ -888,7 +897,7 @@ h3{
     }
 
     .project{
-        height: 155vh; 
+        height: 185vh; 
     }
 
     .project-container{
@@ -968,7 +977,7 @@ h3{
     }
     .work-description h1, .leadership-pintu-description h1, .leadership-eee-description h1{
         font-size: 17px; 
-        width: 95%; 
+        width: 105%; 
     }
     .work-description li, .education-description li, .desc{
         font-size: 0.65rem; 
@@ -1083,28 +1092,29 @@ h3{
         margin-right: -19vw; 
     }
     .work-description h1, .leadership-pintu-description h1, .leadership-eee-description h1{
-        font-size: 14px; 
-        margin-left: -40px; 
+        font-size: 13px; 
+        margin-left: -45px; 
     }
     .work-header .work-logo{
         margin-top: 200px; 
         margin-left: -80px; 
     }
     .work-description .mercedes-header{
-        font-size:13px; 
-        margin-left: -35px; 
+        font-size:12px; 
+        margin-left: -45px; 
     }
     .work-description li, .education-description li, .desc{
-        font-size: 0.62rem; 
+        font-size: 0.59rem; 
     }
     .education-description h1{
         width: 100%; 
         font-size: 13px; 
         margin-left: -50px; 
+        margin-top: -130px; 
     }
     .education-header .education-logo{
         margin-left: -17px; 
-        margin-top: 230px; 
+        margin-top: -230px; 
     }
     .education-description p{
         font-size: 0.65rem; 
@@ -1116,7 +1126,7 @@ h3{
         width: 95%; 
     }
     .education-logo-2{
-        margin-top: 220px; 
+        margin-top: -220px; 
         margin-left: -10px; 
     }
     .education-description{
@@ -1124,12 +1134,10 @@ h3{
     }
     .duration{
         font-size: 11px; 
+        margin-left: -60px;
     }
     .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo{
         margin-left: -15px; 
-    }
-    .leadership-header .leadership-pintu-logo{
-        margin-top: 380px; 
     }
     .title::before{
         margin-left: -30px; 
@@ -1152,10 +1160,10 @@ h3{
     }
     .leadership-pintu-description h1, .leadership-eee-description h1{
         margin-left: -60px; 
-        margin-top: 55px; 
+        margin-top: -200px; 
     }
     .leadership-pintu-description .duration{
-        margin-left: -259px; 
+        margin-left: -265px; 
         font-size: 9px; 
     }
     .leadership-eee-description .duration{
@@ -1167,10 +1175,7 @@ h3{
         width: 200%; 
     }
     .leadership-eee-description h1{
-        margin-top: 65px; 
-    }
-    .leadership-header .leadership-eee-logo{
-        margin-top: 320px;
+        margin-top: -200px; 
     }
     .project{
         height: 115vh; 
