@@ -798,8 +798,8 @@ h3{
         font-size: 10px; 
     }
     .about-header .profile{
-        height:12vw; 
-        width: 12vw; 
+        height:15vw; 
+        width: 15vw; 
         margin-right: -9vw; 
     }
     .work-description, .education-description{
@@ -1167,7 +1167,7 @@ h3{
     }
     .work-description .mercedes-header{
         font-size:12px; 
-        margin-left: -45px; 
+        margin-left: -35px; 
     }
     .work-description li, .education-description li, .desc{
         font-size: 0.59rem; 
