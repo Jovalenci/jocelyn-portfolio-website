@@ -758,7 +758,7 @@ h3{
     button{
         font-size: 15px; 
         margin: 25px;
-        margin-left: -50px;  
+        margin-left: 80px;  
     }
     @keyframes object2{
         50%{
@@ -798,9 +798,10 @@ h3{
         font-size: 10px; 
     }
     .about-header .profile{
-        height:15vw; 
-        width: 15vw; 
-        margin-right: -9vw; 
+        height:13vw; 
+        width: 13vw; 
+        margin-left: 30px;
+        margin-right: -6vw; 
     }
     .work-description, .education-description{
         margin-bottom: 150px; 
@@ -842,9 +843,9 @@ h3{
     }
 
     .work-header .work-logo{
-        width: 10vw; 
-        height: 10vw; 
-        margin-left: -70px; 
+        width: 7vw; 
+        height: 7vw; 
+        margin-left: -40px; 
         margin-top: 220px; 
     }
     .duration{
@@ -865,8 +866,8 @@ h3{
     }
 
     .education-header .education-logo{
-        width: 12vw; 
-        height: 12vw;
+        width: 8vw; 
+        height: 8vw;
         margin-top: -200px;  
         margin-left: 25px; 
     }
@@ -879,17 +880,18 @@ h3{
     .education-description p{
         font-size: 0.9rem; 
         margin-top: -4px; 
-        margin-left: -95px; 
-        width: 120%; 
+        margin-left: -80px; 
+        width: 110%; 
     }
     .education-logo-2{
-        width: 12vw; 
-        height: 12vw; 
-        margin-top: -200px; 
-    }
-    .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo, .leadership-header .leadership-pc-logo{
         width: 8vw; 
         height: 8vw; 
+        margin-top: -200px; 
+        margin-left: 30px;
+    }
+    .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo, .leadership-header .leadership-pc-logo{
+        width: 9vw; 
+        height: 9vw; 
     }
 
     .leadership-header .leadership-eee-logo,  .leadership-header .leadership-pintu-logo, .leadership-header .leadership-pc-logo{
@@ -908,10 +910,23 @@ h3{
         font-size: 15px; 
         margin-left: -120px; 
     }
+
+    .leadership-pc-description h3{
+        font-size: 15px; 
+        margin-left: 30px;
+    }
+    .leadership-header .leadership-pc-logo{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    .leadership-pintu-description h1{
+        margin-left: -200px;
+    }
     
     .leadership-pintu-description .duration, .leadership-eee-description .duration{
         font-size:10px; 
-        margin-left: -178px;
+        margin-left: -278px;
         width: 120%;  
     }
 
@@ -919,7 +934,14 @@ h3{
         text-align: left; 
         margin-left: -120px; 
     }
-
+    .leadership-pc-description h1{
+        padding-top:  150px; 
+        margin-left: -230px;
+    }
+    .leadership-pc-desc .desc{
+        width: 100%;
+        margin-left: -30px;
+    }
 
     .title::before{
         margin-left:-30px; 
@@ -1012,12 +1034,19 @@ h3{
         font-size: 18px; 
         width: 50%; 
     }
+    .about-header .profile{ 
+        margin-left: 0px;
+        margin-right: -9vw; 
+    }
     .work-description h1, .leadership-pintu-description h1, .leadership-eee-description h1, .leadership-pc-description h1{
         font-size: 16px; 
         width: 90%; 
     }
     .work-description li, .education-description li, .desc{
         font-size: 0.60rem; 
+    }
+    .work-header .work-logo{
+        margin-left: -70px;
     }
     .duration{
         margin-left: -60px;
@@ -1039,6 +1068,9 @@ h3{
     }
     .education-description p{
         font-size: 0.75rem; 
+    }
+    .education-logo-2{
+        margin-left: 0px; 
     }
     .imgbox .me{
        right: -30px;
@@ -1163,7 +1195,7 @@ h3{
     }
     .work-header .work-logo{
         margin-top: 200px; 
-        margin-left: -80px; 
+        margin-left: -70px; 
     }
     .work-description .mercedes-header{
         font-size:12px; 
@@ -1179,7 +1211,7 @@ h3{
         margin-top: -130px; 
     }
     .education-header .education-logo{
-        margin-left: -17px; 
+        margin-left: 0px; 
         margin-top: -230px; 
     }
     .education-description p{
@@ -1193,7 +1225,7 @@ h3{
     }
     .education-logo-2{
         margin-top: -220px; 
-        margin-left: -10px; 
+        margin-left: 0px; 
     }
     .education-description{
         margin-bottom: 345px; 
@@ -1201,9 +1233,6 @@ h3{
     .duration{
         font-size: 11px; 
         margin-left: -60px;
-    }
-    .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo, .leadership-header .leadership-pc-logo{
-        margin-left: -15px; 
     }
     .leadership-header .leadership-pc-logo{
         margin-top: 30px;
@@ -1287,7 +1316,7 @@ h3{
     }
     .work-header .work-logo{
         margin-top: 200px; 
-        margin-left: -85px; 
+        margin-left: -75px; 
     }
     .work-description li, .education-description li, .desc{
         font-size: 0.54rem; 
@@ -1311,6 +1340,7 @@ h3{
     }
     .education-logo-2{
         margin-top: -200px; 
+        margin-left: -10px;
     }
     .education-description{
         margin-bottom: 345px; 
@@ -1322,8 +1352,11 @@ h3{
     .duration{
         font-size: 11px; 
     }
-    .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo, .leadership-header .leadership-pc-logo{
+    .leadership-header .leadership-pintu-logo, .leadership-header .leadership-eee-logo{
         margin-left: -15px; 
+    }
+    .leadership-header .leadership-pc-logo{
+        margin-left: 0px;
     }
     .title::before{
         margin-left: -30px; 
@@ -1335,7 +1368,7 @@ h3{
     .desc{
         font-size: 0.5rem; 
         margin-left: -100px; 
-        width: 180%; 
+        width: 190%; 
     }
     .timeline{
         padding-left: 120px; 
@@ -1360,6 +1393,9 @@ h3{
         font-size: 9px; 
         width: 180%; 
         margin-left: -100px; 
+    }
+    .project{
+        height: 150vh; 
     }
   }
 
